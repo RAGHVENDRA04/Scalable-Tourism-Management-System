@@ -1,37 +1,31 @@
 
 #  Scalable Tourism Management System  
 
-A **microservices-based tourism booking platform** built during my internship at **ThunderCube Pvt. Ltd.**  
+A **microservices-based tourism booking platform** built by me and my team.  
 This project simplifies hotel and room booking operations while ensuring **scalability, fault tolerance, and maintainability**.  
 
 ---
 
-## 📊 Tech Stack Overview  
+## 📊 Tech Stack  
 
-```
-
-Backend (Java + Spring Boot)   ██████████ 40%
-Database (MySQL + Hibernate)   ██████ 25%
-API Gateway + Eureka           ████ 20%
-Frontend (HTML, CSS, JS)       ██ 10%
-Docker & Deployment            █ 5%
-
-```
+![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk)  
+![Spring Boot](https://img.shields.io/badge/SpringBoot-3.x-green?logo=springboot)  
+![MySQL](https://img.shields.io/badge/MySQL-8-blue?logo=mysql)  
+![Hibernate](https://img.shields.io/badge/Hibernate-ORM-yellow)  
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)  
 
 ---
 
 ## 🚀 Why Microservices?  
 
-Instead of a monolithic design, this project follows a **microservices architecture** because:  
-
-- **Scalability** → Each service (Hotel, Booking, Customer, Admin) runs independently.  
-- **Load Balancing** → Requests are evenly distributed with **Spring Cloud Gateway**.  
-- **Service Discovery** → New services auto-register with **Eureka**, no manual config needed.  
-- **Flexibility** → Additional services (e.g., *Payment Service*, *Review Service*) can be added without breaking the system.  
+- **Scalability** → Each service runs independently.  
+- **Load Balancing** → Spring Cloud Gateway ensures smooth traffic distribution.  
+- **Service Discovery** → Eureka auto-registers services, reducing config overhead.  
+- **Flexibility** → Add more services (Payment, Reviews, Notifications) without touching existing ones.  
 
 ---
 
-## 🏗️ Project Architecture  
+## 🏗️ Architecture  
 
 ```
 
@@ -49,51 +43,46 @@ Instead of a monolithic design, this project follows a **microservices architect
 
 ---
 
-## 📂 Features Implemented  
+## 📂 Features  
 
-✅ **Admin Module** → Add/authenticate admins, manage customers, hotels, and requests.  
-✅ **Customer Module** → Register, book rooms, cancel bookings, view history.  
-✅ **Hotel Management** → Add hotels, update rooms, fetch hotel info.  
-✅ **Booking System** → Date-based search, availability checks, cancellations.  
-✅ **Request Handling** → Submit, view, and cancel requests.  
+- 👤 **Admin Module** → Add/admins, manage hotels, requests, customers.  
+- 🏨 **Hotel Management** → Add hotels, update rooms, retrieve details.  
+- 📅 **Booking System** → Book/cancel rooms, search by date, check availability.  
+- 🙍 **Customer Module** → Registration, booking history, cancellations.  
+- 📩 **Request Handling** → Submit/view/cancel service requests.  
 
 ---
 
 ## 🛠️ How to Run  
 
-### 1️⃣ Clone the Repository  
+1️⃣ Clone repo  
 ```bash
 git clone https://github.com/RAGHVENDRA04/Scalable-Tourism-Management-System.git
 cd Scalable-Tourism-Management-System
 ````
 
-### 2️⃣ Start Eureka Server
+2️⃣ Start Eureka Server
 
 ```bash
 cd TourismEureka-tourism
 mvn spring-boot:run
 ```
 
-### 3️⃣ Start API Gateway
+3️⃣ Start API Gateway
 
 ```bash
 cd TourismApiGateway-tourism
 mvn spring-boot:run
 ```
 
-### 4️⃣ Run Microservices
+4️⃣ Run Microservices
 
 ```bash
-cd Service1
-mvn spring-boot:run
-
-cd Service2
-mvn spring-boot:run
+cd Service1 && mvn spring-boot:run
+cd Service2 && mvn spring-boot:run
 ```
 
-### 5️⃣ Test APIs with Postman
-
-Example endpoints:
+5️⃣ Test APIs (Postman)
 
 * `POST /addhotel`
 * `POST /addbooking`
@@ -103,33 +92,26 @@ Example endpoints:
 
 ## ✨ Future Enhancements
 
-🔹 Add **Payment Service** (Stripe/PayPal integration)
-🔹 Add **Review & Rating Service** for hotels
-🔹 Build a **React Frontend** for modern UI
-🔹 Containerize all services with **Docker Compose**
+* 💳 Add **Payment Service** (Stripe/PayPal)
+* ⭐ Add **Reviews & Ratings** for hotels
+* 🎨 Build a **React Frontend**
+* 🐳 Deploy with **Docker Compose**
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome 🎉
-
-* Fork the repo
-* Create a feature branch
-* Commit your changes
-* Submit a PR
-
-Open areas:
-
-* New microservices
-* Security improvements
-* Frontend UI
+Fork → Branch → Commit → PR.
+Contributions are welcome in: new services, better security, frontend UI.
 
 ---
 
 ## 📜 Copyright
 
 © 2025 **Raghvendra Singh**. All rights reserved.
-This project is published for **learning and demonstration purposes**.
+Published for **learning & demonstration** purposes.
 
 
+
+👉 Want me to also design a **graphical architecture diagram** (colored PNG flow) that you can embed directly into the README instead of ASCII? That’ll make it pop even more.
+```
