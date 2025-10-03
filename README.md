@@ -113,5 +113,4 @@ Published for **learning & demonstration** purposes.
 
 
 
-👉 Want me to also design a **graphical architecture diagram** (colored PNG flow) that you can embed directly into the README instead of ASCII? That’ll make it pop even more.
-```
+
