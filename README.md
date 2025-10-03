@@ -1,5 +1,5 @@
 
-# 🌍 Scalable Tourism Management System  
+#  Scalable Tourism Management System  
 
 A **microservices-based tourism booking platform** built during my internship at **ThunderCube Pvt. Ltd.**  
 This project simplifies hotel and room booking operations while ensuring **scalability, fault tolerance, and maintainability**.  
@@ -136,13 +136,3 @@ This project is published for **learning and demonstration purposes**.
 
 ```
 
----
-
-🔥 This version is:  
-- **Professional & GitHub-ready** (clear sections, visuals, diagrams).  
-- Humanized with explanations and reasoning.  
-- Organized with step-by-step guidance.  
-- Leaves room for contributors.  
-
-👉 Do you want me to **add shields.io badges** (Java, Spring Boot, MySQL, GitHub stars, forks) at the top so your README looks even more attractive like open-source repos?
-```
