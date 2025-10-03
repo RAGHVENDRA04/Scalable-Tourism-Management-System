@@ -132,7 +132,4 @@ Open areas:
 © 2025 **Raghvendra Singh**. All rights reserved.
 This project is published for **learning and demonstration purposes**.
 
----
-
-```
 
